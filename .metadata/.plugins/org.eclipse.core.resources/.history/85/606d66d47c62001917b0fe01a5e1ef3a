@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+     <Classes>
+         <Class name="failtc_exectn_pkg.demo_A"/>
+         <Class name="failtc_exectn_pkg.demo_B"/>
+     </Classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

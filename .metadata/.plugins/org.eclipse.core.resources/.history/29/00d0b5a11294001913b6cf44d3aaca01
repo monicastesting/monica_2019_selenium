@@ -1,0 +1,17 @@
+package jabaBasicProg;
+
+public class str {
+
+	
+	public static String int3050(String str)
+	{  String rs=str.replace("del",null);
+		
+		
+	}
+	public static void main(String[] args) {
+		
+		string res=int3050("adelasa");
+		System.out.println(res);
+	}
+
+}

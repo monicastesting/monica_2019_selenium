@@ -1,0 +1,26 @@
+package jabaBasicProg;
+
+public class str {
+
+	
+	public static string int3050(String str)
+	{   
+		if(str.length()<=4 && str.substring(0,4).equalsIgnoreCase("del"))
+			return str;
+		
+			
+				int index=str.indexOf("del");
+		System.out.println("index is: "+index);
+		//char f=str.charAt(0);
+		return (str.substring(0,1)+str.substring(4));}
+		
+		
+		
+	
+	public static void main(String[] args) {
+		
+		string ee=int3050("adelasa");
+		//System.out.println(res);
+	}
+
+}

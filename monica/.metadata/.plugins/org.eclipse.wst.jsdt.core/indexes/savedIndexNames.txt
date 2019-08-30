@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\Administrator\Desktop\monica\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3019642608.index
+2487027687.index
+2695861000.index
+108245389.index
+3829080893.index
+3141900740.index

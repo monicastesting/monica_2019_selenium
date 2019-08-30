@@ -1,0 +1,10 @@
+package jabaBasicProg;
+
+public class counting_vowel_n_constant {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

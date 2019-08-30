@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[initiating browser]]>
+    </line>
+    <line>
+      <![CDATA[max size of browser]]>
+    </line>
+    <line>
+      <![CDATA[url for browser]]>
+    </line>
+    <line>
+      <![CDATA[data written in browser]]>
+    </line>
+    <line>
+      <![CDATA[submit operation in browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Failed suite [Suite]" duration-ms="13729" started-at="2019-04-19T08:40:07Z" finished-at="2019-04-19T08:40:20Z">
+    <groups>
+    </groups>
+    <test name="Test(failed)" duration-ms="13729" started-at="2019-04-19T08:40:07Z" finished-at="2019-04-19T08:40:20Z">
+      <class name="failtc_exectn_pkg.demo_A">
+        <test-method status="PASS" signature="Test()[pri:0, instance:failtc_exectn_pkg.demo_A@107ec20]" name="Test" duration-ms="13693" started-at="2019-04-19T14:10:07Z" finished-at="2019-04-19T14:10:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[initiating browser]]>
+            </line>
+            <line>
+              <![CDATA[max size of browser]]>
+            </line>
+            <line>
+              <![CDATA[url for browser]]>
+            </line>
+            <line>
+              <![CDATA[data written in browser]]>
+            </line>
+            <line>
+              <![CDATA[submit operation in browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- failtc_exectn_pkg.demo_A -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>

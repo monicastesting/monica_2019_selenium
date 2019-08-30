@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;sel.basics.seed/src/main/java/coockies&apos;&#x0D;&#x0A;- Original project: &apos;Coockies&apos;&#x0D;&#x0A;- Destination element: &apos;sel.basics.seed/src/main/java/coockies&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ScreenShotEg.java&#x0D;&#x0A;     cooke_demo.java&#x0D;&#x0A;     HandlingTabs.java" description="Copy compilation units" destination="=sel.basics.seed/src\/main\/java&lt;coockies" element1="/src&lt;{ScreenShotEg.java" element2="/src&lt;{cooke_demo.java" element3="/src&lt;{HandlingTabs.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1564306932019" units="3" version="1.0"/>
+</session>

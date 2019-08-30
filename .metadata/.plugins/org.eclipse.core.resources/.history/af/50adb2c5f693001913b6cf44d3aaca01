@@ -1,0 +1,16 @@
+package jabaBasicProg;
+
+public class str {
+
+	
+	public static void strcut(String str1)
+	{ str1.valueOf(char[] arr);
+	System.out.println(arr);
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+strcut(there);
+	}
+
+}

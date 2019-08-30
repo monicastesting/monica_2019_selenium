@@ -1,0 +1,5 @@
+INDEX VERSION 1.3+C:\Users\Administrator\Desktop\monica_2019_selenium\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3800715541.index
+108245389.index
+1111269349.index
+1114717050.index

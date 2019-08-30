@@ -1,0 +1,49 @@
+package fddfgdgd;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class junit_demo_1<WebDriver> {
+   
+	private WebDriver driver;
+     
+     
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		
+		driver= new FirefoxDriver();
+		  driver.manage().window().maximize();
+		  System.out.println("reach till here");
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+		driver.close();
+	}
+
+	@Before
+	public void setUp() throws Exception {
+		
+		driver.get("https://www.google.co.in/?gfe_rd=cr&gws_rd=ssl");
+		  System.out.println();
+		  System.out.println("current page title:"+driver.getTitle());
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		system.out.print("   "+"After Click operation page title:"+driver.getTitle());
+	}
+
+	@Test
+	public void test() {
+		driver.findElement(By.linkText("Gmail")).click();
+	}
+
+}

@@ -1,0 +1,9 @@
+package tstng;
+
+import org.testng.annotations.Test;
+
+public class test_pr {
+  @Test
+  public void f() {
+  }
+}

@@ -1,0 +1,17 @@
+package jabaBasicProg;
+
+import java.util.Scanner;
+
+public class counting_vowel_n_constant {
+
+	public static void main(String[] args) {
+		System.out.println("enter String");
+		Scanner scn= new Scanner(System.in);
+
+		String word=scn.next();
+
+		scn.close();
+		System.out.println(word);
+	}
+
+}

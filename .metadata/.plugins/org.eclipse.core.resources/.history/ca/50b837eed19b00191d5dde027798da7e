@@ -1,0 +1,23 @@
+package jascriptexcuter;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class ByClass {
+
+	public static void main(String[] args) {
+		WebDriver driver=new FirefoxDriver();
+		
+		driver.get("http://127.0.0.1:8080/orangehrm/symfony/web/index.php/auth/login");
+	//	driver.findElement(By.className("button")).click();
+
+		JavascriptExecutor js=((JavascriptExecutor)driver);
+		js.executeScript("document.getElementByClass('button')").click(), driver);
+		//driver.findElement(By.className("button")).click();
+		
+		
+	}
+
+}

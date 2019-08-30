@@ -1,0 +1,30 @@
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class multiple_radio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver=new FirefoxDriver();
+		driver.manage().window().maximize();
+		
+		
+		driver.get("https://www.jobserve.com/in/en/JobSearch.aspx?shid=23CBF1D8027CAD94E8&js=1&jsdiag=1");
+		List<WebElement> radio11s= driver.findElements(By.cssSelector("input[name^='RDOJOBTYPE']"));
+		System.out.println("size of radio ="+radio11s.size());
+		
+		for(WebElement r:radio11s)
+		{
+			String value= r.getAttribute("title");
+			System.out.println(value);
+			System.out.println(" ");
+		}
+		
+		
+	}
+
+}

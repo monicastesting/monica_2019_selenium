@@ -1,0 +1,18 @@
+package fddfgdgd;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class msgClass_test {
+
+	
+	String msg= "kapoor";
+	msgClass mcls=new msgClass(msg);
+	
+	@Test
+	public void test() {
+		System.out.println("printmsg");
+	}
+
+}

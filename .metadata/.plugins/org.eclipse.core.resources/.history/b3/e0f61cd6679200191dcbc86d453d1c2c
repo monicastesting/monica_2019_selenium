@@ -1,0 +1,10 @@
+package jabaBasicProg;
+
+public class occurance_pattern_in_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

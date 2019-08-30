@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94" started-at="2019-04-16T06:43:16Z" finished-at="2019-04-16T06:43:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94" started-at="2019-04-16T06:43:16Z" finished-at="2019-04-16T06:43:16Z">
+      <class name="shubhamtng.priorityabc">
+        <test-method status="PASS" signature="d()[pri:0, instance:shubhamtng.priorityabc@5b84c0]" name="d" duration-ms="15" started-at="2019-04-16T12:13:16Z" finished-at="2019-04-16T12:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method status="PASS" signature="e()[pri:0, instance:shubhamtng.priorityabc@5b84c0]" name="e" duration-ms="3" started-at="2019-04-16T12:13:16Z" finished-at="2019-04-16T12:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method status="PASS" signature="f()[pri:0, instance:shubhamtng.priorityabc@5b84c0]" name="f" duration-ms="2" started-at="2019-04-16T12:13:16Z" finished-at="2019-04-16T12:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="m()[pri:0, instance:shubhamtng.priorityabc@5b84c0]" name="m" duration-ms="1" started-at="2019-04-16T12:13:16Z" finished-at="2019-04-16T12:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+        <test-method status="PASS" signature="r()[pri:0, instance:shubhamtng.priorityabc@5b84c0]" name="r" duration-ms="1" started-at="2019-04-16T12:13:16Z" finished-at="2019-04-16T12:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- r -->
+        <test-method status="PASS" signature="z()[pri:0, instance:shubhamtng.priorityabc@5b84c0]" name="z" duration-ms="8" started-at="2019-04-16T12:13:16Z" finished-at="2019-04-16T12:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+        <test-method status="PASS" signature="a()[pri:1, instance:shubhamtng.priorityabc@5b84c0]" name="a" duration-ms="2" started-at="2019-04-16T12:13:16Z" finished-at="2019-04-16T12:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="q()[pri:2, instance:shubhamtng.priorityabc@5b84c0]" name="q" duration-ms="2" started-at="2019-04-16T12:13:16Z" finished-at="2019-04-16T12:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- q -->
+      </class> <!-- shubhamtng.priorityabc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

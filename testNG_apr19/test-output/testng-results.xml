@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30975" started-at="2019-07-19T05:38:23Z" finished-at="2019-07-19T05:38:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30975" started-at="2019-07-19T05:38:23Z" finished-at="2019-07-19T05:38:54Z">
+      <class name="src.b4andaftermethod">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:src.b4andaftermethod@5bef66]" name="beforeTest" is-config="true" duration-ms="4602" started-at="2019-07-19T11:08:23Z" finished-at="2019-07-19T11:08:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:src.b4andaftermethod@5bef66]" name="beforeMethod" is-config="true" duration-ms="4175" started-at="2019-07-19T11:08:28Z" finished-at="2019-07-19T11:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Advertising()[pri:0, instance:src.b4andaftermethod@5bef66]" name="Advertising" duration-ms="324" started-at="2019-07-19T11:08:32Z" finished-at="2019-07-19T11:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Advertising -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:src.b4andaftermethod@5bef66]" name="afterMethod" is-config="true" duration-ms="27" started-at="2019-07-19T11:08:32Z" finished-at="2019-07-19T11:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:src.b4andaftermethod@5bef66]" name="beforeMethod" is-config="true" duration-ms="2827" started-at="2019-07-19T11:08:32Z" finished-at="2019-07-19T11:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="gmail()[pri:0, instance:src.b4andaftermethod@5bef66]" name="gmail" duration-ms="13547" started-at="2019-07-19T11:08:35Z" finished-at="2019-07-19T11:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:src.b4andaftermethod@5bef66]" name="afterMethod" is-config="true" duration-ms="15" started-at="2019-07-19T11:08:48Z" finished-at="2019-07-19T11:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:src.b4andaftermethod@5bef66]" name="beforeMethod" is-config="true" duration-ms="3282" started-at="2019-07-19T11:08:48Z" finished-at="2019-07-19T11:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="images()[pri:0, instance:src.b4andaftermethod@5bef66]" name="images" duration-ms="1794" started-at="2019-07-19T11:08:52Z" finished-at="2019-07-19T11:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- images -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:src.b4andaftermethod@5bef66]" name="afterMethod" is-config="true" duration-ms="324" started-at="2019-07-19T11:08:54Z" finished-at="2019-07-19T11:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:src.b4andaftermethod@5bef66]" name="afterTest" is-config="true" duration-ms="18" started-at="2019-07-19T11:08:54Z" finished-at="2019-07-19T11:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- src.b4andaftermethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

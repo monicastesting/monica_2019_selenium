@@ -1,0 +1,22 @@
+package jabaBasicProg;
+
+public class str {
+
+	
+	public static String int3050(String str)
+	{   if(str.charAt(0)=='o' && str.charAt(1)=='z') 
+	      return "oz";
+	    if(str.charAt(0)=='o'){ return "o";}
+	    else if(str.charAt(1)=='z'){ return "z";}
+	 
+		
+		
+		
+	}
+	public static void main(String[] args) {
+		
+		String res=int3050("ozykozy");
+			//System.out.println(res);
+	}
+
+}

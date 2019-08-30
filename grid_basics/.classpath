@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/commons-el-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/cssparser-0.9.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/htmlunit-2.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/htmlunit-core-js-2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/lib folder/httpmime-4.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/selenium-java-2.52.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/selenium-java-2.52.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/selenium support/selenium-server-standalone-2.52.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

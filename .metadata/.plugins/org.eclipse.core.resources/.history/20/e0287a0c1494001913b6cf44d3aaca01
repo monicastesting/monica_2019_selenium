@@ -1,0 +1,31 @@
+package jabaBasicProg;
+
+public class str {
+
+	
+	public static void int3050(String str)
+	{   
+		if(str.length()<=3 && str.equalsIgnoreCase("del") )
+		{ System.out.println(str);
+			
+		}
+		int index=str.indexOf("del");
+		System.out.println(index);
+		char f=str.charAt(0);
+		
+		System.out.println(str.charAt(0)+str.charAt(4));
+		//string[]arr= str.split("del");
+		// return arr;
+			
+		}
+		//string rs=str.replace("del","");
+		
+		
+	
+	public static void main(String[] args) {
+		
+		int3050("adelasa");
+		//System.out.println(res);
+	}
+
+}

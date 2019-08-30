@@ -1,0 +1,9 @@
+package shubhamtng;
+
+import org.testng.annotations.Test;
+
+public class priorityabc {
+  @Test
+  public void f() {
+  }
+}

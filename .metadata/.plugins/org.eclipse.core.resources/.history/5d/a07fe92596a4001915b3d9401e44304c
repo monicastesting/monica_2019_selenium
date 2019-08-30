@@ -1,0 +1,67 @@
+package dataSource;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class page_factory {
+	
+	public static WebDriver driver;
+	
+	@FindBy(xpath=".//*[@id='tblcrtac']/tbody/tr[3]/td[3]/input")
+	 public static WebElement name1;	// full name 
+	
+	@FindBy(xpath=".//*[@id='tblcrtac']/tbody/tr[7]/td[3]/input[1]")
+	static WebElement loginName1; 	// choose login id on rediff
+	
+	@FindBy(xpath=".//*[@id='tblcrtac']/tbody/tr[9]/td[3]/input")
+	static WebElement password1; 	// password field
+	
+	@FindBy(xpath=".//*[@id='tblcrtac']/tbody/tr[11]/td[3]/input")
+	static WebElement altpassword1;  	// retype password
+	@FindBy(xpath=".//*[@id='div_altemail']/table/tbody/tr[1]/td[3]/input")
+	static WebElement altEmail_id; 	// retype email id
+	
+	@FindBy(xpath=".//*[@id='tblcrtac']/tbody/tr[7]/td[3]/input[2]")
+	static WebElement  Chk_availability;  
+	// button Check availability" Check availability" name="btnchkavail63105fd8"
+		
+		public void page_factory(WebDriver driver){
+		//this.driver=driver;
+		PageFactory.initElements(driver, this);
+	   }
+	
+	public static void main(String name1) 
+	{
+		System.setProperty("webdriver.chrome.driver", 
+				"C:\\Users\\Administrator\\Desktop\\monica_2019_selenium\\chromedriver.exe");
+	
+	       driver=new ChromeDriver();
+	       page_factory pagefactory = null;
+		//WebDriver driver=new FirefoxDriver();
+	       
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+		//driver.get("http://www.google.co.in");
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		driver.get("https://register.rediff.com/register/register.php?FormName=user_details");
+		pagefactory.name1.sendKeys("seed");
+		//name1.sendKeys("seed");                    //sendkeys(driver, name1, 35, "seed");
+		loginName1.sendKeys("monica_sdetplus04"); //sendkeys(driver, loginName1, 20, "monica_sdetplus04");
+		
+		Chk_availability.click();
+		password1.sendKeys("seed12345");        //sendkeys(driver, password1, 5, "seed12345");
+		altpassword1.sendKeys("seed12345");      //sendkeys(driver, altpassword1, 15, "seed12345");
+		altEmail_id.sendKeys("seed@seed.com");  //sendkeys(driver,altEmail_id, 30, "seed@seed.com");		
+		   
+		driver.findElement(By.xpath(".//*[@id='Register']")).click();
+	}
+
+}

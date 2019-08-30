@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;sel.basics.seed/src/main/java/WebDriverMethods&apos;&#x0D;&#x0A;- Original project: &apos;webdriverMethod&apos;&#x0D;&#x0A;- Destination element: &apos;sel.basics.seed/src/main/java/WebDriverMethods&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     webdriverMethod.javascriptexecutor_webmethods.java&#x0D;&#x0A;     webdriverMethod.WBdmethods.java" description="Copy compilation units" destination="=sel.basics.seed/src\/main\/java&lt;WebDriverMethods" element1="/src&lt;webdriverMethod{javascriptexecutor_webmethods.java" element2="/src&lt;webdriverMethod{WBdmethods.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1564305812751" units="2" version="1.0"/>
+</session>

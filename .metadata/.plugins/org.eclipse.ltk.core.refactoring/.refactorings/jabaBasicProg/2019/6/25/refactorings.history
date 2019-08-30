@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;jabaBasicProg.palindrome_Strng&apos; to &apos;factirial_ofNumber&apos;&#x0D;&#x0A;- Original project: &apos;jabaBasicProg&apos;&#x0D;&#x0A;- Original element: &apos;jabaBasicProg.palindrome_Strng&apos;&#x0D;&#x0A;- Renamed element: &apos;jabaBasicProg.factirial_ofNumber&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;palindrome_Strng&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;jabaBasicProg{palindrome_Strng.java[palindrome_Strng" matchStrategy="1" name="factirial_ofNumber" qualified="false" references="true" similarDeclarations="false" stamp="1560923018541" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,45 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class DDT {
+
+	public static void main(String[] args) throws IOException {
+		
+		FileInputStream f1 = new FileInputStream("C:\\Users\\Administrator\\Desktop\\monica_2019_selenium\\orange_login.xlsx");
+		
+		XSSFWorkbook wb = new XSSFWorkbook(f1);
+		XSSFSheet sh = wb.getSheetAt(0);
+		XSSFRow rw;
+		XSSFCell un, pwd;
+		
+		WebDriver driver= new FirefoxDriver();
+		driver.manage().window().maximize(); 
+		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		driver.manage().deleteAllCookies();
+		driver.get("http://127.0.0.1:8080/orangehrm/symfony/web/index.php/auth/login");
+		
+		driver.findElement(By.xpath(".//*[@id='divUsername']/input")).sendKeys("admin");
+		//.//*[@id='divUsername']/span
+		
+		
+		
+		driver.findElement(By.xpath(".//*[@id='divPassword']/input")).sendKeys("seedadmin");
+		// password text box
+		
+		// expected correct password is:-- seedadmin
+		
+		driver.findElement(By.xpath(".//*[@id='btnLogin']")).click();		
+		
+	}
+
+}

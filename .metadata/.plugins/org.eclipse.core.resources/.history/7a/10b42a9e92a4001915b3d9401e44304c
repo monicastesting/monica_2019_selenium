@@ -1,0 +1,63 @@
+//import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class webTables {
+
+	public static void main(String[] args) {
+		
+		
+		WebDriver driver=new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://money.rediff.com/gainers");
+		
+		List<WebElement> rows=driver.findElements(By.xpath(".//*[@id='leftcontainer']/table/tbody/tr"));
+		System.out.println("Size of rows"+rows.size());
+		
+		List<WebElement> cols=driver.findElements(By.xpath(".//*[@id='leftcontainer']/table/thead/tr/th"));
+		System.out.println("Size of colm"+cols.size());
+		//int rc=rows.size();
+		//int cc=cols.size();
+	
+		
+		String expName="GTPL Hathway";
+		int flag=0;
+		/*List<String> cols1= new ArrayList<>();
+		for(int i=1;i<10;i++)
+		{
+			cols1.add((driver.findElement(By.xpath(".//*[@id='leftcontainer']/table/tbody/tr["+i+"]/td[1]/a"))).getText());
+		}*/
+		for(int i=1;i<10;i++)
+		{ 
+		List<WebElement> cc=driver.findElements(By.xpath(".//*[@id='leftcontainer']/table/tbody/tr["+i+"]/td[1]/a"));
+				
+		//String cols_e= driver.findElement(By.xpath(".//*[@id='leftcontainer']/table/tbody/tr["+i+"]/td[1]/a")).getText();
+		
+		 		if(expName.contentEquals(cc.get(0).getText()))
+				
+			{
+				System.out.println("Row number is :"+i);
+				flag=1;
+				
+				for(int c1=1;c1<=5;c1++)
+				{
+					System.out.print(driver.findElement(By.xpath(".//*[@id='leftcontainer']/table/tbody/tr["+i+"]/td["+c1+"]")).getText());
+				}
+				
+				break;
+			}
+			if(flag==0)
+			{
+				System.out.println("Company does not exist");
+		}
+			
+		}
+		driver.close();
+	
+	}
+
+}

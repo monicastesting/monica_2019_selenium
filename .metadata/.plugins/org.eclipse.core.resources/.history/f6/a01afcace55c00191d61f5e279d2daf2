@@ -1,0 +1,43 @@
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class webtable2 {
+
+	public static void main(String[] args) {
+		WebDriver driver=new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
+		driver.get("https://money.rediff.com/gainers");
+		
+
+		List<WebElement> rows=driver.findElements(By.xpath(".//*[@id='leftcontainer']/table/tbody/tr"));
+		System.out.println("Size of rows"+rows.size());
+		
+		List<WebElement> cols=driver.findElements(By.xpath(".//*[@id='leftcontainer']/table/thead/tr/th"));
+		System.out.println("Size of colm"+cols.size());
+		//int rc=rows.size();
+		//int cc=cols.size();
+		WebElement monica= driver.findElement(By.xpath(".//*[@id='leftcontainer']/table"));
+		List < WebElement > rows_table = driver.findElements(By.tagName("tr"));
+		for(int m=0;m<=cols.size();m++)
+		{
+			List<WebElement> colm= driver.findElements(By.xpath(".//*[@id='leftcontainer']/table/tbody/tr[1]/td"));
+	        for(WebElement op:colm)
+	        {System.out.println(op.getText());
+	        }	
+		}
+		int flag=0;
+		/*for(int i=0;i<rows.size();i++) 
+		{
+			monica.getAttribute(a0)
+		}*/
+		
+		
+	}//*[@id='leftcontainer']/table/tbody/tr
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22290" started-at="2019-04-10T05:22:10Z" finished-at="2019-04-10T05:22:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22290" started-at="2019-04-10T05:22:10Z" finished-at="2019-04-10T05:22:32Z">
+      <class name="snehalFwait">
+        <test-method status="PASS" signature="fluentWaitMethod()[pri:0, instance:snehalFwait@1b11784]" name="fluentWaitMethod" duration-ms="22262" started-at="2019-04-10T10:52:10Z" finished-at="2019-04-10T10:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fluentWaitMethod -->
+      </class> <!-- snehalFwait -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

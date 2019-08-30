@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;MouseHandling&apos;" deleteContents="false" description="Delete resource &apos;MouseHandling&apos;" element1="/MouseHandling" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1552307137423"/>
+</session>

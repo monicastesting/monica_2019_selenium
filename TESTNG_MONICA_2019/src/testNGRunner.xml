@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+	<suite name="Paramiterisation test suite by monica" thread-count="1" >
+	
+	<parameter name="user" value="admin"/>
+	<parameter name="password" value="admin" /> 	
+	
+	<test name="testNG_monica_july19">
+		
+		<classes>
+				<class name="src.parameterisation_TNG"/>
+				
+				
+				
+				
+		</classes>
+	</test>
+	</suite>

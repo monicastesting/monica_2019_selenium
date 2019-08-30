@@ -1,0 +1,22 @@
+package jabaBasicProg;
+
+public class str {
+
+	
+	public static int int3050(int a,int b,int c)
+	{ 
+	   if(a>b && a>c){ return a;}
+	   else if((b>a && b>c)){ return b;}
+	   else return c;
+	 
+		
+		
+		
+	}
+	public static void main(String[] args) {
+		
+			int res=int3050(10,57,99);
+			System.out.println(res);
+	}
+
+}

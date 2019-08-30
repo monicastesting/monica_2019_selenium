@@ -1,0 +1,18 @@
+package jabaBasicProg;
+
+public class str {
+
+	
+	public static boolean int3050(int n1,int n2)
+	{   int temp= n1+10;
+	    if(n2>=n1 && n2<=temp){ return true;}
+	    else return false;
+		
+	}
+	public static void main(String[] args) {
+		
+			boolean res=int3050(10,57);
+			System.out.println(res);
+	}
+
+}

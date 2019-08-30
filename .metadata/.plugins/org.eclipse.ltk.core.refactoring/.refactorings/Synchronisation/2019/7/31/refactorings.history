@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;sel.basics.seed/src/main/java/Synchronisation&apos;&#x0D;&#x0A;- Original project: &apos;Synchronisation&apos;&#x0D;&#x0A;- Destination element: &apos;sel.basics.seed/src/main/java/Synchronisation&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ThreadEg.java&#x0D;&#x0A;     snehalFwait.java&#x0D;&#x0A;     ExplicitlyWait.java&#x0D;&#x0A;     ImplicitWait.java" description="Copy compilation units" destination="=sel.basics.seed/src\/main\/java&lt;Synchronisation" element1="/src&lt;{ThreadEg.java" element2="/src&lt;{snehalFwait.java" element3="/src&lt;{ExplicitlyWait.java" element4="/src&lt;{ImplicitWait.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1564305711169" units="4" version="1.0"/>
+</session>

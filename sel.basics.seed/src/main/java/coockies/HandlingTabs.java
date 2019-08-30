@@ -1,0 +1,29 @@
+package coockies;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class HandlingTabs {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get("http://demowebshop.tricentis.com");
+		driver.findElement(By.linkText("Log in")).sendKeys(Keys.chord(Keys.CONTROL+"T"+Keys.RETURN));
+		driver.findElement(By.linkText("body")).sendKeys(Keys.chord(Keys.CONTROL+"2"));
+		driver.switchTo().defaultContent();
+		driver.findElement(By.id("Email")).sendKeys("bela.joshi@seedinfotech.test");
+		driver.findElement(By.id("Password")).sendKeys("Tosca1234!");
+		driver.findElement(By.cssSelector("input[value^='Log']")).click();
+	
+		
+
+
+	}
+
+}

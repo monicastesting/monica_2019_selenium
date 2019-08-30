@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;test_pr.java&apos; to &apos;testNG_apr19/src/src&apos;&#x0D;&#x0A;- Original project: &apos;TESTNG_MONICA_2019&apos;&#x0D;&#x0A;- Destination element: &apos;testNG_apr19/src/src&apos;&#x0D;&#x0A;- Original element: &apos;tstng.test_pr.java&apos;" description="Copy compilation unit" destination="=testNG_apr19/src&lt;src" element1="/src&lt;tstng{test_pr.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1562922759532" units="1" version="1.0"/>
+</session>

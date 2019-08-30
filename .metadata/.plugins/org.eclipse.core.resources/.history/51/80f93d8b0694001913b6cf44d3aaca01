@@ -1,0 +1,31 @@
+package jabaBasicProg;
+
+public class str {
+
+	
+	public static int int3050(int n1,int n2)
+	{  int n1dif=n1-10;
+	 int n2diff=n2-10;
+	 int tie=0;
+	 if(n1dif==n2diff)
+	 { 
+		 return tie; 
+		 }
+	 	 
+	 if(Math.abs(n1dif)> Math.abs(n2diff)) 
+	   { return n2; }
+	 else 
+		 return n1;
+	 
+	 
+		
+		
+		
+	}
+	public static void main(String[] args) {
+		
+			boolean res=int3050(10,57);
+			System.out.println(res);
+	}
+
+}
